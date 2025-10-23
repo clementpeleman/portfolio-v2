@@ -312,7 +312,6 @@ export const DATA = {
       video: "",
       images: [
         "/projects/ROVER/thumbnail.png",
-        "/projects/ROVER/1.png",
         "/projects/ROVER/2.png",
         "/projects/ROVER/3.png",
         "/projects/ROVER/4.png",

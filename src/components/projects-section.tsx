@@ -61,6 +61,7 @@ export function ProjectsSection({ projects, blurFadeDelay }: ProjectsSectionProp
               tags={project.tags}
               image={project.image}
               video={project.video}
+              images={project.images}
               links={project.links}
               onClick={() => handleProjectClick(project)}
             />

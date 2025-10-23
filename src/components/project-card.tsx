@@ -20,6 +20,7 @@ interface Props {
   link?: string;
   image?: string;
   video?: string;
+  images?: readonly string[];
   links?: readonly {
     icon: React.ReactNode;
     type: string;
@@ -38,16 +39,28 @@ export function ProjectCard({
   link,
   image,
   video,
+  images,
   links,
   className,
   onClick,
 }: Props) {
+  const handleMouseEnter = () => {
+    // Preload all project images when hovering over the card
+    if (images && images.length > 0) {
+      images.forEach((src) => {
+        const img = new window.Image();
+        img.src = src;
+      });
+    }
+  };
+
   return (
     <Card
       className={
         "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full cursor-pointer active:scale-[0.98]"
       }
       onClick={onClick}
+      onMouseEnter={handleMouseEnter}
     >
       <div className={cn("block", className)}>
         {video && (
