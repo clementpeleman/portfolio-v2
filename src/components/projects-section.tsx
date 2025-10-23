@@ -11,7 +11,7 @@ interface Project {
   dates: string;
   active?: boolean;
   description: string;
-  technologies: readonly string[];
+  tags: readonly string[];
   links?: readonly {
     icon: React.ReactNode;
     type: string;
@@ -36,7 +36,7 @@ export function ProjectsSection({ projects, blurFadeDelay }: ProjectsSectionProp
       title: project.title,
       dates: project.dates,
       description: project.description,
-      tags: project.technologies,
+      tags: project.tags,
       image: project.image,
       video: project.video,
       images: project.images,
@@ -58,7 +58,7 @@ export function ProjectsSection({ projects, blurFadeDelay }: ProjectsSectionProp
               title={project.title}
               description={project.description}
               dates={project.dates}
-              tags={project.technologies}
+              tags={project.tags}
               image={project.image}
               video={project.video}
               links={project.links}

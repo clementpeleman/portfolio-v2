@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Embedded Systems Engineer & Product Designer. I love building things and bridging the gap between hardware and software.",
   summary:
-    "With a background in Industrial Design, I have a passion for Embedded Design. I believe in continuous learning and growth to stay abreast of the latest trends and technologies. I have gained experience in both Hardware and Software, with a particular interest in bridging the gap between these two domains. Currently based in Ghent as a student of [Embedded Systems at UGent](https://studiekiezer.ugent.be/2022/master-of-science-in-electronics-and-ict-engineering-technology-embedded-systems/).",
+    "With a background in Industrial Design, I have a passion for Embedded Design. I believe in continuous learning and growth to stay abreast of the latest trends and tags. I have gained experience in both Hardware and Software, with a particular interest in bridging the gap between these two domains. Currently based in Ghent as a student of [Embedded Systems at UGent](https://studiekiezer.ugent.be/2022/master-of-science-in-electronics-and-ict-engineering-technology-embedded-systems/).",
   avatarUrl: "/me.jpeg",
   skills: [
     "C/C++",
@@ -136,7 +136,7 @@ export const DATA = {
       active: true,
       description:
         "An innovative platform that leverages artificial intelligence to simplify and enhance the wine pairing experience. By analyzing dish ingredients and flavor profiles, Tipple AI provides instant, personalized wine recommendations. Uses a semi-agentic flow with kNN trained on thousands of dishes and grape varieties.",
-      technologies: [
+      tags: [
         "Next.js",
         "TypeScript",
         "AI/ML",
@@ -171,7 +171,7 @@ export const DATA = {
       active: true,
       description:
         "A website for a local wine shop based in Oosterzele. Built with Webflow with custom code for features such as the top banner and shopping cart logic. Full CMS integration with filtering.",
-      technologies: [
+      tags: [
         "Webflow",
         "JavaScript",
         "Custom Code",
@@ -198,7 +198,7 @@ export const DATA = {
       active: true,
       description:
         "Frontend and backend development for H16.be, creating a stunning online experience. Focus on both frontend and backend development, delivering a seamless, responsive, and engaging website supported by AWS EC2 and RDS infrastructure. Logo and typography by chilli.be.",
-      technologies: [
+      tags: [
         "React",
         "Node.js",
         "AWS EC2",
@@ -229,7 +229,7 @@ export const DATA = {
       active: false,
       description:
         "A compact and versatile ESP32 development board with integrated Wi-Fi and Bluetooth capabilities. Ideal for IoT projects where space and connectivity are key. Features USB-C for power and UART pinout for programming.",
-      technologies: [
+      tags: [
         "KiCad",
         "PCB Design",
         "ESP32",
@@ -252,7 +252,7 @@ export const DATA = {
       active: false,
       description:
         "A user-centered bike light design with special attention to the user journey. Features magnetic attachment for seamless on/off functionality, ensuring secure placement during rides while making it easy to remove when leaving the bike or recharging.",
-      technologies: [
+      tags: [
         "Product Design",
         "UX Design",
         "Siemens NX",
@@ -276,7 +276,7 @@ export const DATA = {
       active: false,
       description:
         "Master's thesis project exploring Multi Jet Fusion (MJF) production within a corporate setting. Identified and analyzed existing bottlenecks impeding efficiency and devised solutions to enhance the MJF production process. Includes a wearable PM exposure monitoring device.",
-      technologies: [
+      tags: [
         "Product Design",
         "MJF Technology",
         "Industrial Design",
@@ -301,7 +301,7 @@ export const DATA = {
       active: false,
       description:
         "An autonomous, tracked construction vehicle designed to streamline material handling on construction sites. Features robust build and advanced navigation for transporting heavy loads in rugged terrains. Branding emphasizes strength and reliability with clean lines and high-contrast color scheme.",
-      technologies: [
+      tags: [
         "Product Design",
         "Autonomous Systems",
         "Brand Design",
@@ -421,7 +421,7 @@ export const DATA = {
       dates: "2024",
       location: "Milton Keynes, UK",
       description:
-        "F1 and car enthusiast with a passion for the engineering and technologies used. Visited the Red Bull F1 factory in Milton Keynes.",
+        "F1 and car enthusiast with a passion for the engineering and tags used. Visited the Red Bull F1 factory in Milton Keynes.",
       image: "/sides/img_1696.jpeg",
       links: [],
     },

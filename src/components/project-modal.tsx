@@ -133,10 +133,10 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
             </div>
           </div>
 
-          {/* Technologies */}
+          {/* tags */}
           {project.tags && project.tags.length > 0 && (
             <div className="space-y-2">
-              <h3 className="text-lg font-semibold">Technologies</h3>
+              <h3 className="text-lg font-semibold">tags</h3>
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
                   <Badge key={tag} variant="secondary">
