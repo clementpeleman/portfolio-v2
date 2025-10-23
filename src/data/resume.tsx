@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Embedded Systems Engineer & Product Designer. I like building things, whether it’s through code or circuits.",
   summary:
-    "With a background in Industrial Design and currently pursuing Embedded Systems, I believe in continuous learning and growth to stay abreast of the latest trends and tags. I have gained experience in both Hardware and Software, with a particular interest in bridging the gap between these two domains. Currently based in Ghent as a student of [Embedded Systems at UGent](https://studiekiezer.ugent.be/2022/master-of-science-in-electronics-and-ict-engineering-technology-embedded-systems/).",
+    "With a background in Industrial Design and currently pursuing Embedded Systems, I believe in continuous learning and growth to stay abreast of the latest trends and technologies. I have gained experience in both Hardware and Software, with a particular interest in bridging the gap between these two domains. Currently based in Ghent as a student of [Embedded Systems at UGent](https://studiekiezer.ugent.be/2022/master-of-science-in-electronics-and-ict-engineering-technology-embedded-systems/).",
   avatarUrl: "/me.jpeg",
   skills: [
     "C/C++",
