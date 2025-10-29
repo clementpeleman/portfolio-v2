@@ -358,7 +358,7 @@ export const DATA = {
         {
           title: "GitHub",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/clementpeleman/BartCoachBot",
+          href: "https://github.com/clementpeleman/coach-v2",
         },
       ],
     },
