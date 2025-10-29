@@ -192,6 +192,36 @@ export const DATA = {
       ],
     },
     {
+      title: "PaperMind",
+      href: "https://github.com/clementpeleman/PaperMind",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "A modern web application designed to help users manage, analyze, and interact with academic papers and research data. Features AI-powered analysis, Zotero integration for seamless reference management and quick analyses for time-saving purposes.",
+      tags: [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "Zotero",
+        "AI/ML",
+        "React",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/clementpeleman/PaperMind",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/papermind/thumbnail.png",
+      video: "",
+      images: [
+        "/projects/papermind/thumbnail.png",
+        "/projects/papermind/demo.gif",
+        "/projects/papermind/Zotero.png",
+      ],
+    },
+    {
       title: "H16 Website",
       href: "https://www.h16.be",
       dates: "2022 - Present",
@@ -320,32 +350,17 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Dekimo Embedded Contest",
-      dates: "2023",
-      location: "Belgium",
+      title: "AI Sports Coach",
+      dates: "2025",
+      location: "Ghent, Belgium",
       description:
-        "Succeeded first course with fast lap time in the Dekimo Embedded Contest - an embedded systems competition focused on autonomous racing vehicles.",
-      image: "/competitions/dekimo.png",
+        "An intelligent sports coaching system powered by LangGraph that integrates with Garmin wearables to provide personalized training advice via Telegram. Features AI-powered conversation agents, automatic activity sync, smart profiling, and custom workout generation that syncs with Garmin.",
+      image: "/projects/bartcoachbot/thumbnail.png",
       links: [
         {
-          title: "Website",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.dekimo.com/challenge/",
-        },
-      ],
-    },
-    {
-      title: "Pulse Global Programming Challenge",
-      dates: "2024",
-      location: "International",
-      description:
-        "Successfully completed the Pulse Global Programming challenge, demonstrating advanced programming skills and problem-solving abilities.",
-      image: "/competitions/pulse.png",
-      links: [
-        {
-          title: "LinkedIn",
-          icon: <Icons.linkedin className="h-4 w-4" />,
-          href: "https://www.linkedin.com/company/pulseglobal/?originalSubdomain=be",
+          title: "GitHub",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/clementpeleman/BartCoachBot",
         },
       ],
     },
@@ -365,24 +380,6 @@ export const DATA = {
       ],
     },
     {
-      title: "Repairing Sonos AMPs",
-      dates: "2025",
-      location: "Ghent, Belgium",
-      description:
-        "Repairing SONOS S16 and ZP120 power supply boards. ZP120 had water damage and PWM generator failed for the SMPS. Currently fixing the newer S16 AMP.",
-      image: "/sides/img_5874.png",
-      links: [],
-    },
-    {
-      title: "PM2.5 Wearable Sensor Design",
-      dates: "2025",
-      location: "Ghent, Belgium",
-      description:
-        "Design and creation of a wearable PM2.5 particle sensor that tracks dust particles in surrounding air and logs them to an online dashboard. Made with ESP32, dust sensor, and Li-ion cell. Designed in Siemens NX and printed using Bambulab A1 mini.",
-      image: "/sides/img_2535.jpeg",
-      links: [],
-    },
-    {
       title: "FPV Drone",
       dates: "2025",
       location: "Ghent, Belgium",
@@ -398,30 +395,51 @@ export const DATA = {
       ],
     },
     {
-      title: "DIY Li-Ion Battery",
-      dates: "2025",
-      location: "Ghent, Belgium",
-      description:
-        "DIY Li-Ion Battery for a Taito e-scooter using 21700 cells to create a 48V pack. Custom battery management system design and implementation.",
-      image: "/sides/img_5300.jpeg",
-      links: [],
-    },
-    {
-      title: "3D Printing",
-      dates: "2011 - Present",
-      location: "Ghent, Belgium",
-      description:
-        "Passionate about 3D printing using Ender 3 Pro and Bambulab A1 mini. Bought first Ender when I was 14 years old - still works today. Amazed by how easy and far the 3D printing industry has gotten in such little time.",
-      image: "/sides/2006109452.avif",
-      links: [],
-    },
-    {
       title: "Red Bull F1",
       dates: "2024",
       location: "Milton Keynes, UK",
       description:
         "F1 and car enthusiast with a passion for the engineering and tags used. Visited the Red Bull F1 factory in Milton Keynes.",
       image: "/sides/img_1696.jpeg",
+      links: [],
+    },
+    {
+      title: "Pulse Global Programming Challenge",
+      dates: "2024",
+      location: "International",
+      description:
+        "Successfully completed the Pulse Global Programming challenge, demonstrating advanced programming skills and problem-solving abilities.",
+      image: "/competitions/pulse.png",
+      links: [
+        {
+          title: "LinkedIn",
+          icon: <Icons.linkedin className="h-4 w-4" />,
+          href: "https://www.linkedin.com/company/pulseglobal/?originalSubdomain=be",
+        },
+      ],
+    },
+    {
+      title: "Dekimo Embedded Contest",
+      dates: "2023",
+      location: "Belgium",
+      description:
+        "Succeeded first course with fast lap time in the Dekimo Embedded Contest - an embedded systems competition focused on autonomous racing vehicles.",
+      image: "/competitions/dekimo.png",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.dekimo.com/challenge/",
+        },
+      ],
+    },
+    {
+      title: "3D Printing",
+      dates: "2015",
+      location: "Ghent, Belgium",
+      description:
+        "Passionate about 3D printing using Ender 3 Pro and Bambulab A1 mini. Bought first Ender when I was 14 years old - still works today. Amazed by how easy and far the 3D printing industry has gotten in such little time.",
+      image: "/sides/2006109452.avif",
       links: [],
     },
   ],
