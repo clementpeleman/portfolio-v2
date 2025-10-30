@@ -8,9 +8,9 @@ export const DATA = {
   location: "Ghent, Belgium",
   locationLink: "https://www.google.com/maps/place/ghent",
   description:
-    "Embedded Systems Engineer & Product Designer. I like building things, whether it’s through code or circuits.",
+    "From concept to code, I design and build for the web.",
   summary:
-    "With a background in Industrial Design and currently pursuing Embedded Systems, I believe in continuous learning and growth to stay abreast of the latest trends and technologies. I have gained experience in both Hardware and Software, with a particular interest in bridging the gap between these two domains. Currently based in Ghent as a student of [Embedded Systems at UGent](https://studiekiezer.ugent.be/2022/master-of-science-in-electronics-and-ict-engineering-technology-embedded-systems/).",
+    "I’m a full-stack developer with a background in product design and hardware. I like working across the stack, balancing an engineer’s mindset with a designer’s eye. The mix of design and engineering keeps me curious about both how things work and how they feel."
   avatarUrl: "/me.jpeg",
   skills: [
     "Python",
