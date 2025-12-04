@@ -8,9 +8,9 @@ export const DATA = {
   location: "Ghent, Belgium",
   locationLink: "https://www.google.com/maps/place/ghent",
   description:
-    "Web developer with a background in embedded systems and product design.",
+    "Engineer with a background in embedded systems and product design.",
   summary:
-    "I’m a full-stack developer with a background in product design and hardware. I like working across the stack, balancing an engineer’s mindset with a designer’s eye. The mix of design and engineering keeps me curious about both how things work and how they feel. Currently based in Ghent as a student of [Embedded Systems at UGent](https://studiekiezer.ugent.be/2022/master-of-science-in-electronics-and-ict-engineering-technology-embedded-systems/).",
+    "Engineer with a background in product and hardware design. I work across the stack, combining technical problem-solving with a strong sense for product. This mix keeps me curious about both how things work and how people experience them. Currently based in Ghent, studying [Embedded Systems at UGent](https://studiekiezer.ugent.be/2022/master-of-science-in-electronics-and-ict-engineering-technology-embedded-systems/).",
   avatarUrl: "/me.jpeg",
   skills: [
     "Python",
