@@ -362,21 +362,21 @@ export const DATA = {
         },
       ],
     },
-    {
-      title: "Onyx AI Knowledge Base",
-      dates: "2025",
-      location: "Remote",
-      description:
-        "Extensive experience in finetuning and setting up self-hosted instances of Onyx - an open-source AI platform connected to company docs, apps, and people. Learned about vector databases, embeddings, document retrieval, and RAG pipelines.",
-      image: "/sides/onyxconnectorsilentdemo.gif",
-      links: [
-        {
-          title: "GitHub",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/onyx-dot-app/onyx",
-        },
-      ],
-    },
+    // {
+    //   title: "Onyx AI Knowledge Base",
+    //   dates: "2025",
+    //   location: "Remote",
+    //   description:
+    //     "Extensive experience in finetuning and setting up self-hosted instances of Onyx - an open-source AI platform connected to company docs, apps, and people. Learned about vector databases, embeddings, document retrieval, and RAG pipelines.",
+    //   image: "/sides/onyxconnectorsilentdemo.gif",
+    //   links: [
+    //     {
+    //       title: "GitHub",
+    //       icon: <Icons.github className="h-4 w-4" />,
+    //       href: "https://github.com/onyx-dot-app/onyx",
+    //     },
+    //   ],
+    // },
     {
       title: "FPV Drone",
       dates: "2025",
