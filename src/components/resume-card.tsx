@@ -53,7 +53,8 @@ export const ResumeCard = ({
               className={cn(
                 "object-contain",
                 (logoUrl.includes("h16_logo")) && "p-1",
-                (logoUrl.includes("logo_ugent")) && "p-2"
+                (logoUrl.includes("logo_ugent")) && "p-2",
+                (logoUrl.includes("delhaize")) && "p-2"
               )}
             />
             <AvatarFallback>{altText[0]}</AvatarFallback>

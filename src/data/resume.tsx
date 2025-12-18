@@ -17,11 +17,10 @@ export const DATA = {
     "FastAPI",
     "SQL",
     "TypeScript",
-    "Ruby on Rails",
     "Node.js",
     "React/Next.js",
     "Langchain",
-    "VHDL",
+    "FPGA",
     "KiCad",
     "Siemens NX",
     "AWS",
@@ -118,7 +117,7 @@ export const DATA = {
       end: "2023",
     },
     {
-      school: "Katholiek Secundair Onderwijs Ronse",
+      school: "Secundair Onderwijs Ronse",
       href: "https://www.ksogr.be/",
       degree: "Math Science",
       logoUrl: "/kso.png",
@@ -422,12 +421,27 @@ export const DATA = {
       location: "Belgium",
       description:
         "Succeeded first course with fast lap time in the Dekimo Embedded Contest - an embedded systems competition focused on autonomous racing vehicles.",
-      image: "/competitions/dekimo.png",
+      image: "/sides/dekimo.png",
       links: [
         {
           title: "Website",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://www.dekimo.com/challenge/",
+        },
+      ],
+    },
+    {
+      title: "Helium Network",
+      dates: "2021",
+      location: "Ghent, Belgium",
+      description:
+        "Set up a Helium hotspot on my student dorm balcony to contribute to the decentralized Helium LoRa network. Learned extensively about LoRa technology, long-range IoT connectivity, and decentralized wireless infrastructure.",
+      image: "/sides/helium.png",
+      links: [
+        {
+          title: "Helium",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.helium.com/",
         },
       ],
     },
