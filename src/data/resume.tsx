@@ -96,18 +96,18 @@ export const DATA = {
       description:
         "Development and design of H16 website.",
     },
-    {
-      company: "Delhaize Ronse",
-      href: "https://www.delhaize.be/",
-      badges: [],
-      location: "Ronse, Belgium",
-      title: "Student worker",
-      logoUrl: "/delhaize.png",
-      start: "2017",
-      end: "2019",
-      description:
-        "Worked in retail operations during summer break.",
-    },
+    // {
+    //   company: "Delhaize Ronse",
+    //   href: "https://www.delhaize.be/",
+    //   badges: [],
+    //   location: "Ronse, Belgium",
+    //   title: "Student worker",
+    //   logoUrl: "/delhaize.png",
+    //   start: "2017",
+    //   end: "2019",
+    //   description:
+    //     "Worked in retail operations during summer break.",
+    // },
   ],
   education: [
     {
@@ -126,14 +126,14 @@ export const DATA = {
       start: "2019",
       end: "2023",
     },
-    {
-      school: "Secundair Onderwijs Ronse",
-      href: "https://www.ksogr.be/",
-      degree: "Math Science",
-      logoUrl: "/kso.png",
-      start: "2013",
-      end: "2019",
-    },
+    // {
+    //   school: "Secundair Onderwijs Ronse",
+    //   href: "https://www.ksogr.be/",
+    //   degree: "Math Science",
+    //   logoUrl: "/kso.png",
+    //   start: "2013",
+    //   end: "2019",
+    // },
   ],
   projects: [
     {
