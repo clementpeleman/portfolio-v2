@@ -71,7 +71,7 @@ export const DATA = {
       end: "Present",
       description:
         "Responsible for designing, staging, and field-testing private mobile networks, from 5G to 0G, across diverse environments and scales. Involved in network planning, deployment optimization, and performance validation through data-driven field measurements.",
-    }
+    },
     {
       company: "LVQ Wine",
       href: "https://www.lvq.wine",
