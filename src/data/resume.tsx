@@ -10,19 +10,17 @@ export const DATA = {
   description:
     "Engineer with a background in embedded systems and product design.",
   summary:
-    "Engineer with a background in product and hardware design. I work across the stack, combining technical problem-solving with a strong sense for product. This mix keeps me curious about both how things work and how people experience them. Currently based in Ghent, studying [Embedded Systems at UGent](https://studiekiezer.ugent.be/2022/master-of-science-in-electronics-and-ict-engineering-technology-embedded-systems/).",
+    "Engineer with a background in product and hardware design. I work across the stack, combining technical problem-solving with a strong sense for product. This mix keeps me curious about both how things work and how people experience them. Currently working as RAN-Expert at [Citymesh](https://www.citymesh.com/).",
   avatarUrl: "/me.jpeg",
   skills: [
     "Python",
-    "FastAPI",
     "SQL",
     "TypeScript",
-    "Node.js",
     "React/Next.js",
     "Langchain",
     "FPGA",
     "KiCad",
-    "Siemens NX",
+    "CAD",
     "AWS",
     "Supabase",
     "Docker",
@@ -63,11 +61,23 @@ export const DATA = {
 
   work: [
     {
+      company: "Citymesh",
+      href: "https://www.citymesh.com/",
+      badges: [],
+      location: "Oostkamp, Belgium",
+      title: "RAN Expert",
+      logoUrl: "/citymesh_logo.png",
+      start: "2026",
+      end: "Present",
+      description:
+        "Responsible for designing, staging, and field-testing private mobile networks, from 5G to 0G, across diverse environments and scales. Involved in network planning, deployment optimization, and performance validation through data-driven field measurements.",
+    }
+    {
       company: "LVQ Wine",
       href: "https://www.lvq.wine",
       badges: [],
       location: "Ghent, Belgium",
-      title: "Web developer",
+      title: "Web developer (as student worker)",
       logoUrl: "/lvq_logo.svg",
       start: "2025",
       end: "2025",
@@ -79,7 +89,7 @@ export const DATA = {
       href: "https://www.h16.be",
       badges: [],
       location: "Oosterzele, Belgium",
-      title: "Web developer",
+      title: "Web developer (as student worker)",
       logoUrl: "/h16_logo.webp",
       start: "2022",
       end: "2023",
