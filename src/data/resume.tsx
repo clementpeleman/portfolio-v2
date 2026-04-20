@@ -72,6 +72,18 @@ export const DATA = {
       description:
         "Responsible for designing, staging, and field-testing private mobile networks, from 5G to 0G, across diverse environments and scales. Involved in network planning, deployment optimization, and performance validation through data-driven field measurements.",
     },
+        {
+      company: "Self-employed ",
+      href: "mailto:clementpeleman@outlook.com",
+      badges: [],
+      location: "Ghent, Belgium",
+      title: "Web Developer & Consultant",
+      logoUrl: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💻%3C/text%3E%3C/svg%3E",
+      start: "2025",
+      end: "Present",
+      description:
+        "Freelance web development and consulting, specializing in building custom websites and applications for local businesses. Services include frontend and backend development, CMS integration, and AI-powered features.",
+    },
     {
       company: "LVQ Wine",
       href: "https://www.lvq.wine",
@@ -137,19 +149,70 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Tipple - Wine Pairing AI",
+      title: "Nimbo - Cloud Platform",
+      href: "",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "A Belgian cloud platform offering invoicing, CRM, document management, and secure storage in one workspace. Built for small businesses that want their data hosted locally in Belgium with GDPR compliance. Features a marketplace for integrations and multi-language support.",
+      tags: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "next-intl",
+      ],
+      links: [],
+      image: "/projects/nimbo/thumbnail.png",
+      video: "",
+      images: [
+        "/projects/nimbo/thumbnail.png",
+        "/projects/nimbo/hero.png",
+        "/projects/nimbo/packages.png",
+      ],
+    },
+    {
+      title: "Leth - Plumbing & Heating",
+      href: "https://leth.be",
+      dates: "2026",
+      active: true,
+      description:
+        "Website for LETH, a licensed plumbing and heating technician serving Ghent, Deinze, and Sint-Martens-Latem. Built with React and TinaCMS for easy content management. Features service pages, online quote requests, and 24/7 emergency contact.",
+      tags: [
+        "React",
+        "TypeScript",
+        "TinaCMS",
+        "Vite",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://leth.be",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/leth/thumbnail.png",
+      video: "",
+      images: [
+        "/projects/leth/thumbnail.png",
+        "/projects/leth/diensten.png",
+      ],
+    },
+    {
+      title: "Tipple - Restaurant Wine Management",
       href: "https://tipple.wine/",
       dates: "2024 - Present",
       active: true,
       description:
-        "An innovative platform that leverages artificial intelligence to simplify and enhance the wine pairing experience. By analyzing dish ingredients and flavor profiles, Tipple AI provides instant, personalized wine recommendations. Uses a semi-agentic flow with kNN trained on thousands of dishes and grape varieties.",
+        "A full wine management platform for restaurants. Restaurants can upload their menu and get AI-generated wine pairings, manage their inventory with cost tracking, generate wine cards in multiple templates, and order from suppliers — all from one dashboard. Integrates Google Vision API for menu scanning and Gemini for AI pairings.",
       tags: [
-        "Next.js",
+        "React",
         "TypeScript",
-        "AI/ML",
-        "kNN",
-        "RAG",
         "Supabase",
+        "Google Vision API",
+        "Gemini API",
+        "Vite",
       ],
       links: [
         {
@@ -157,18 +220,13 @@ export const DATA = {
           href: "https://tipple.wine/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Blog",
-          href: "https://tipple.wine/blog/introducing-tipple",
-          icon: <Icons.globe className="size-3" />,
-        },
       ],
-      image: "/projects/tipple/thumbnail.jpg",
+      image: "/projects/tipple-v2/thumbnail.png",
       video: "",
       images: [
-        "/projects/tipple/thumbnail.jpg",
-        "/projects/tipple/main.png",
-        "/projects/tipple/dashboard.png",
+        "/projects/tipple-v2/thumbnail.png",
+        "/projects/tipple-v2/dashboard.png",
+        "/projects/tipple-v2/winecards.png",
       ],
     },
     {
@@ -331,29 +389,29 @@ export const DATA = {
         "/projects/MJF/2_story.jpg",
       ],
     },
-    {
-      title: "ROVER - Autonomous Construction Vehicle",
-      href: "",
-      dates: "2023",
-      active: false,
-      description:
-        "An autonomous, tracked construction vehicle designed to streamline material handling on construction sites. Features robust build and advanced navigation for transporting heavy loads in rugged terrains. Branding emphasizes strength and reliability with clean lines and high-contrast color scheme.",
-      tags: [
-        "Product Design",
-        "Autonomous Systems",
-        "Brand Design",
-        "Industrial Design",
-      ],
-      links: [],
-      image: "/projects/ROVER/thumbnail.png",
-      video: "",
-      images: [
-        "/projects/ROVER/thumbnail.png",
-        "/projects/ROVER/2.png",
-        "/projects/ROVER/3.png",
-        "/projects/ROVER/4.png",
-      ],
-    },
+    // {
+    //   title: "ROVER - Autonomous Construction Vehicle",
+    //   href: "",
+    //   dates: "2023",
+    //   active: false,
+    //   description:
+    //     "An autonomous, tracked construction vehicle designed to streamline material handling on construction sites. Features robust build and advanced navigation for transporting heavy loads in rugged terrains. Branding emphasizes strength and reliability with clean lines and high-contrast color scheme.",
+    //   tags: [
+    //     "Product Design",
+    //     "Autonomous Systems",
+    //     "Brand Design",
+    //     "Industrial Design",
+    //   ],
+    //   links: [],
+    //   image: "/projects/ROVER/thumbnail.png",
+    //   video: "",
+    //   images: [
+    //     "/projects/ROVER/thumbnail.png",
+    //     "/projects/ROVER/2.png",
+    //     "/projects/ROVER/3.png",
+    //     "/projects/ROVER/4.png",
+    //   ],
+    // },
   ],
   hackathons: [
     {
@@ -410,36 +468,36 @@ export const DATA = {
       image: "/sides/img_1696.jpeg",
       links: [],
     },
-    {
-      title: "Pulse Global Programming Challenge",
-      dates: "2024",
-      location: "International",
-      description:
-        "Successfully completed the Pulse Global Programming challenge, demonstrating advanced programming skills and problem-solving abilities.",
-      image: "/competitions/pulse.png",
-      links: [
-        {
-          title: "LinkedIn",
-          icon: <Icons.linkedin className="h-4 w-4" />,
-          href: "https://www.linkedin.com/company/pulseglobal/?originalSubdomain=be",
-        },
-      ],
-    },
-    {
-      title: "Dekimo Embedded Contest",
-      dates: "2023",
-      location: "Belgium",
-      description:
-        "Succeeded first course with fast lap time in the Dekimo Embedded Contest - an embedded systems competition focused on autonomous racing vehicles.",
-      image: "/sides/dekimo.png",
-      links: [
-        {
-          title: "Website",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.dekimo.com/challenge/",
-        },
-      ],
-    },
+    // {
+    //   title: "Pulse Global Programming Challenge",
+    //   dates: "2024",
+    //   location: "International",
+    //   description:
+    //     "Successfully completed the Pulse Global Programming challenge, demonstrating advanced programming skills and problem-solving abilities.",
+    //   image: "/competitions/pulse.png",
+    //   links: [
+    //     {
+    //       title: "LinkedIn",
+    //       icon: <Icons.linkedin className="h-4 w-4" />,
+    //       href: "https://www.linkedin.com/company/pulseglobal/?originalSubdomain=be",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Dekimo Embedded Contest",
+    //   dates: "2023",
+    //   location: "Belgium",
+    //   description:
+    //     "Succeeded first course with fast lap time in the Dekimo Embedded Contest - an embedded systems competition focused on autonomous racing vehicles.",
+    //   image: "/sides/dekimo.png",
+    //   links: [
+    //     {
+    //       title: "Website",
+    //       icon: <Icons.globe className="h-4 w-4" />,
+    //       href: "https://www.dekimo.com/challenge/",
+    //     },
+    //   ],
+    // },
     {
       title: "Helium Network",
       dates: "2021",
