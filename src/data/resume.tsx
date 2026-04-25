@@ -150,7 +150,7 @@ export const DATA = {
   projects: [
     {
       title: "Nimbo - Cloud Platform",
-      href: "",
+      href: "https://getnimbo.tark.app/en",
       dates: "2025 - Present",
       active: true,
       description:
