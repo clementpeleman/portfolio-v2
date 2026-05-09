@@ -150,7 +150,7 @@ export const DATA = {
   projects: [
     {
       title: "Nimbo - Cloud Platform",
-      href: "https://getnimbo.tark.app/en",
+      href: "https://getnimbo.peleman.io",
       dates: "2025 - Present",
       active: true,
       description:
@@ -162,7 +162,13 @@ export const DATA = {
         "Tailwind CSS",
         "next-intl",
       ],
-      links: [],
+      links: [
+        {
+          type: "Website",
+          href: "https://getnimbo.peleman.io",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       image: "/projects/nimbo/thumbnail.png",
       video: "",
       images: [
