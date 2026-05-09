@@ -128,7 +128,7 @@ export const DATA = {
       degree: "Master of Science in Embedded Systems",
       logoUrl: "/logo_ugent.svg",
       start: "2023",
-      end: "present",
+      end: "2025",
     },
     {
       school: "UGent (Kortrijk)",
