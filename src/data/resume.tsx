@@ -178,31 +178,30 @@ export const DATA = {
       ],
     },
     {
-      title: "Leth - Plumbing & Heating",
-      href: "https://leth.be",
-      dates: "2026",
+      title: "AI Sports Coach",
+      href: "https://github.com/clementpeleman/coach-v2",
+      dates: "2025",
       active: true,
       description:
-        "Website for LETH, a licensed plumbing and heating technician serving Ghent, Deinze, and Sint-Martens-Latem. Built with React and TinaCMS for easy content management. Features service pages, online quote requests, and 24/7 emergency contact.",
+        "An intelligent sports coaching system powered by LangGraph that integrates with Garmin wearables to provide personalized training advice via Telegram. Features AI-powered conversation agents, automatic activity sync, smart profiling, and custom workout generation that syncs with Garmin.",
       tags: [
-        "React",
-        "TypeScript",
-        "TinaCMS",
-        "Vite",
-        "Tailwind CSS",
+        "LangGraph",
+        "Python",
+        "Telegram API",
+        "Garmin API",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://leth.be",
-          icon: <Icons.globe className="size-3" />,
+          type: "GitHub",
+          href: "https://github.com/clementpeleman/coach-v2",
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/projects/leth/thumbnail.png",
+      image: "/projects/bartcoachbot/thumbnail.png",
       video: "",
       images: [
-        "/projects/leth/thumbnail.png",
-        "/projects/leth/diensten.png",
+        "/projects/bartcoachbot/thumbnail.png",
+        "/projects/bartcoachbot/GarminDashboard.png",
       ],
     },
     {
@@ -420,21 +419,6 @@ export const DATA = {
     // },
   ],
   hackathons: [
-    {
-      title: "AI Sports Coach",
-      dates: "2025",
-      location: "Ghent, Belgium",
-      description:
-        "An intelligent sports coaching system powered by LangGraph that integrates with Garmin wearables to provide personalized training advice via Telegram. Features AI-powered conversation agents, automatic activity sync, smart profiling, and custom workout generation that syncs with Garmin.",
-      image: "/projects/bartcoachbot/thumbnail.png",
-      links: [
-        {
-          title: "GitHub",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/clementpeleman/coach-v2",
-        },
-      ],
-    },
     // {
     //   title: "Onyx AI Knowledge Base",
     //   dates: "2025",
