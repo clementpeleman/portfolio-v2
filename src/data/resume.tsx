@@ -234,7 +234,7 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "A full wine management platform for restaurants. Restaurants can upload their menu and get AI-generated wine pairings, manage their inventory with cost tracking, generate wine cards in multiple templates, and order from suppliers — all from one dashboard. Integrates Google Vision API for menu scanning and Gemini for AI pairings.",
+        "A full wine management platform for restaurants. Restaurants can upload their menu and get AI-generated wine pairings, manage their inventory with cost tracking, generate wine cards in multiple templates, and order from suppliers — all from one dashboard. Integrates Google Vision API for menu scanning and a custom kNN model for AI pairings.",
       tags: [
         "React",
         "TypeScript",
