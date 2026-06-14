@@ -106,7 +106,10 @@ export default function Page() {
             {DATA.skills.map((group, gid) => (
               <div key={group.category} className="flex flex-col gap-y-1.5">
                 <BlurFade delay={BLUR_FADE_DELAY * 10 + gid * 0.1}>
-                  <span className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground/60">
+                  <span className="flex items-center gap-1.5 text-[10px] font-medium uppercase tracking-wider text-muted-foreground/60">
+                    {group.accent && (
+                      <span className="size-1 rounded-full bg-lime-400" />
+                    )}
                     {group.category}
                   </span>
                 </BlurFade>
@@ -116,7 +119,19 @@ export default function Page() {
                       key={skill}
                       delay={BLUR_FADE_DELAY * 10 + gid * 0.1 + id * 0.05}
                     >
-                      <Badge key={skill}>{skill}</Badge>
+                      <Badge
+                        key={skill}
+                        className={
+                          (DATA.currentSkills as readonly string[]).includes(skill)
+                            ? "gap-1.5"
+                            : undefined
+                        }
+                      >
+                        {(DATA.currentSkills as readonly string[]).includes(skill) && (
+                          <span className="size-1.5 rounded-full bg-lime-400" />
+                        )}
+                        {skill}
+                      </Badge>
                     </BlurFade>
                   ))}
                 </div>

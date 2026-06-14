@@ -12,25 +12,33 @@ export const DATA = {
   summary:
     "Engineer with a background in product and hardware design. I work across the stack, combining technical problem-solving with a strong sense for product. This mix keeps me curious about both how things work and how people experience them. Currently working as RAN-Expert at [Citymesh](https://www.citymesh.com/).",
   avatarUrl: "/me.jpeg",
+  // Skills marked here render a small accent dot in the UI to signal what
+  // I'm actively building with right now.
+  currentSkills: ["Python", "React/Next.js", "Claude Code"],
   skills: [
     {
       category: "Languages",
+      accent: false,
       items: ["Python", "TypeScript", "SQL"],
     },
     {
       category: "Web & Backend",
+      accent: false,
       items: ["React/Next.js", "Node.js", "Supabase"],
     },
     {
       category: "AI & LLMs",
+      accent: true,
       items: ["Langchain", "RAG", "Claude Code"],
     },
     {
       category: "Cloud & Tooling",
+      accent: false,
       items: ["AWS", "Docker", "Git"],
     },
     {
       category: "Hardware & Design",
+      accent: false,
       items: ["FPGA", "KiCad", "CAD", "UX/CX"],
     },
   ],
