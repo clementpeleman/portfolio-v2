@@ -185,30 +185,38 @@ export const DATA = {
       ],
     },
     {
-      title: "AI Sports Coach",
-      href: "https://github.com/clementpeleman/coach-v2",
+      title: "Floating Coach - AI Sports Coach",
+      href: "https://coach.peleman.io",
       dates: "2025",
       active: true,
       description:
-        "An intelligent sports coaching system powered by LangGraph that integrates with Garmin wearables to provide personalized training advice via Telegram. Features AI-powered conversation agents, automatic activity sync, smart profiling, and custom workout generation that syncs with Garmin.",
+        "A personal AI sports coach that connects to Garmin wearables and turns training data into recovery-aware, personalized advice. Features a LangGraph agent for natural conversations, daily recovery scoring, automatic activity analysis, and custom workout generation that syncs back to Garmin — available as a web dashboard and Telegram bot.",
       tags: [
         "LangGraph",
+        "Next.js",
         "Python",
-        "Telegram API",
         "Garmin API",
+        "Telegram API",
       ],
       links: [
+        {
+          type: "Website",
+          href: "https://coach.peleman.io",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "GitHub",
           href: "https://github.com/clementpeleman/coach-v2",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/projects/bartcoachbot/thumbnail.png",
+      image: "/projects/floating-coach/mainpage.png",
       video: "",
       images: [
-        "/projects/bartcoachbot/thumbnail.png",
-        "/projects/bartcoachbot/GarminDashboard.png",
+        "/projects/floating-coach/mainpage.png",
+        "/projects/floating-coach/ai_chat.png",
+        "/projects/floating-coach/activitygenerator.png",
+        "/projects/floating-coach/recoveryscore.png",
       ],
     },
     {
