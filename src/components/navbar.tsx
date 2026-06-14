@@ -24,14 +24,22 @@ export default function Navbar() {
                   href={item.href}
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
-                    "size-12"
+                    "relative size-12"
                   )}
                 >
                   <item.icon className="size-4" />
+                  {item.notification && (
+                    <span className="absolute right-3 top-3 size-1.5 rounded-full bg-lime-400 ring-2 ring-background motion-safe:animate-breathe" />
+                  )}
                 </Link>
               </TooltipTrigger>
-              <TooltipContent>
+              <TooltipContent className="flex items-center gap-1.5">
                 <p>{item.label}</p>
+                {item.notification && (
+                  <span className="text-[10px] font-medium text-lime-600 dark:text-lime-400">
+                    New post
+                  </span>
+                )}
               </TooltipContent>
             </Tooltip>
           </DockIcon>

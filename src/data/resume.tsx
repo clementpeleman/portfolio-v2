@@ -43,8 +43,9 @@ export const DATA = {
     },
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/", icon: HomeIcon, label: "Home", notification: false },
+    // Flip `notification` to false once the latest post is no longer "new".
+    { href: "/blog", icon: NotebookIcon, label: "Blog", notification: true },
   ],
   contact: {
     email: "clementpeleman@outlook.com",
