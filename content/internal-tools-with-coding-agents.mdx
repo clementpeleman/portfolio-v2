@@ -1,0 +1,72 @@
+---
+title: "Your best internal tools are now an afternoon away"
+publishedAt: "2026-06-14"
+summary: "Coding agents collapsed the cost of internal tooling, and Python with Streamlit makes it real. But the moment you build for someone other than yourself, UX becomes the whole game."
+---
+
+Every company I've worked with has a graveyard of internal tools that never got built. The CSV someone reformats by hand every Monday morning. The "dashboard" that's really four spreadsheets and a group chat. The approval step that lives in one person's head and breaks when they're on holiday. Everyone agrees these should be real tools. They just never make the list, because the people who could build them are busy building the thing that pays the bills.
+
+That math just changed.
+
+## The old cost of a small tool
+
+A small internal tool used to be surprisingly expensive. It still needs a backend, a bit of auth, a frontend nobody enjoys writing, and somewhere to deploy it. Then it needs to be maintained. And the audience is five people in operations. So it loses, every time, to customer-facing work. Rationally so. You can't justify a week of engineering to save one colleague twenty minutes a week, and so the spreadsheet survives another year.
+
+The result is that the work that's most annoying to a company is often the work nobody is allowed to fix.
+
+## What coding agents change
+
+With an agentic coding agent — Claude Code, in my case — the distance from "we should have a tool for this" to a working tool is about an afternoon. You describe the workflow, it scaffolds the thing, and you iterate in plain language instead of fighting boilerplate. The grunt work that made small tools uneconomical is mostly gone.
+
+The interesting part isn't the speed. It's what the speed does to the decision. When a useful internal tool costs an afternoon instead of a week, the whole graveyard becomes worth building. Things that were never going to clear the bar suddenly clear it easily.
+
+## Why Python and Streamlit is a sweet spot
+
+Most internal tools are a thin UI over some data and a handful of rules. That's exactly where Python already lives — the data, the scripts, the glue. Streamlit then turns a script into a web app without asking you to think about a frontend at all.
+
+```python
+import streamlit as st
+
+st.title("Weekly supplier orders")
+
+orders = load_orders()              # your existing logic, unchanged
+st.dataframe(orders)
+
+supplier = st.selectbox("Supplier", orders["supplier"].unique())
+if st.button("Generate order"):
+    draft = build_order(orders, supplier)
+    st.success(f"Draft ready for {supplier}")
+    st.download_button("Download PDF", draft, "order.pdf")
+```
+
+That's a real, usable tool. No routing, no build step, no CSS. Hand the plumbing to an agent and you spend your time on the part that actually matters: the logic and the workflow.
+
+## Then someone else opens it
+
+Here's the part the hype skips over. Building a tool for yourself and building one for the person two desks over are different jobs.
+
+When you're the only user, you can get away with anything. You know the clean function names, you know which button is safe, you know what the error means. The moment a colleague who isn't you opens it, none of that knowledge comes with the app. The UI *is* the product. If a label is ambiguous, they'll guess, and sometimes guess wrong. If an error dumps a stack trace, they'll stop and message you. A tool people don't understand or trust doesn't get used, and a tool that doesn't get used may as well not exist.
+
+Adoption is the only metric that counts, and adoption is a UX problem.
+
+A few things that quietly decide whether an internal tool lives or dies:
+
+- **Use their words, not the database's.** "Supplier", not `vendor_id`. The label should match how the person already talks about the thing.
+- **Make the happy path obvious and the destructive path slightly hard.** Nobody should delete a month of data because two buttons sat next to each other.
+- **Design the unhappy case.** An empty state, a readable error, a "nothing to show yet" — that's most of the difference between something that feels finished and something that feels broken.
+- **Show where the numbers come from.** Finance won't trust a total it can't trace. A small "based on X rows from Y" does more for trust than any styling.
+- **Be boring on purpose.** Obvious beats clever every time when the goal is that someone gets in, does the thing, and gets out.
+
+## The agent won't do this part for you
+
+A coding agent will build exactly what you ask, quickly and without complaint. What it won't do is tell you that the workflow is wrong, that operations actually thinks about this in a different order, or that the number you're proudly displaying is the one nobody in the building trusts. It doesn't know who's going to use the tool or what they're nervous about clicking.
+
+That judgment — what to build, for whom, and how it should feel — is still yours. I came to this from the other side: industrial design before engineering. And the lesson that transfers cleanest is that the tool people adopt is rarely the most technically impressive one. It's the one that fit the way someone already worked.
+
+## So
+
+The bottleneck moved. For a whole class of internal tools, "can we build this" is no longer the question — the answer is yes, this afternoon. The real question is "should we, and will anyone actually use it." That's a product question, not an engineering one.
+
+Companies that internalize this get a compounding advantage: hundreds of small frictions removed, each one cheap, each one built for the person who has to live with it. The ones who don't will keep reformatting that CSV by hand on Monday mornings.
+
+Build the tool. Just build it for the person two desks over, not for yourself.
