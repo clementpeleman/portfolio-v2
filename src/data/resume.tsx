@@ -156,38 +156,9 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Nimbo - Cloud Platform",
-      href: "https://getnimbo.peleman.io",
-      dates: "2025 - Present",
-      active: true,
-      description:
-        "A Belgian cloud platform offering invoicing, CRM, document management, and secure storage in one workspace. Built for small businesses that want their data hosted locally in Belgium with GDPR compliance. Features a marketplace for integrations and multi-language support.",
-      tags: [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "next-intl",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://getnimbo.peleman.io",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/projects/nimbo/thumbnail.png",
-      video: "",
-      images: [
-        "/projects/nimbo/thumbnail.png",
-        "/projects/nimbo/hero.png",
-        "/projects/nimbo/packages.png",
-      ],
-    },
-    {
       title: "Floating Coach - AI Sports Coach",
       href: "https://coach.peleman.io",
-      dates: "2025",
+      dates: "2026",
       active: true,
       description:
         "A personal AI sports coach that connects to Garmin wearables and turns training data into recovery-aware, personalized advice. Features a LangGraph agent for natural conversations, daily recovery scoring, automatic activity analysis, and custom workout generation that syncs back to Garmin — available as a web dashboard and Telegram bot.",
@@ -220,9 +191,38 @@ export const DATA = {
       ],
     },
     {
+      title: "Nimbo - Cloud Platform",
+      href: "https://getnimbo.peleman.io",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "A Belgian cloud platform offering invoicing, CRM, document management, and secure storage in one workspace. Built for small businesses that want their data hosted locally in Belgium with GDPR compliance. Features a marketplace for integrations and multi-language support.",
+      tags: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "next-intl",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://getnimbo.peleman.io",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/nimbo/thumbnail.png",
+      video: "",
+      images: [
+        "/projects/nimbo/thumbnail.png",
+        "/projects/nimbo/hero.png",
+        "/projects/nimbo/packages.png",
+      ],
+    },
+    {
       title: "Tipple - Restaurant Wine Management",
       href: "https://tipple.wine/",
-      dates: "2024 - Present",
+      dates: "2025",
       active: true,
       description:
         "A full wine management platform for restaurants. Restaurants can upload their menu and get AI-generated wine pairings, manage their inventory with cost tracking, generate wine cards in multiple templates, and order from suppliers — all from one dashboard. Integrates Google Vision API for menu scanning and Gemini for AI pairings.",
@@ -252,7 +252,7 @@ export const DATA = {
     {
       title: "LVQ - Wine Shop Website",
       href: "https://lvq.wine",
-      dates: "2025 - Present",
+      dates: "2025",
       active: true,
       description:
         "A website for a local wine shop based in Oosterzele. Built with Webflow with custom code for features such as the top banner and shopping cart logic. Full CMS integration with filtering.",
@@ -276,40 +276,40 @@ export const DATA = {
         "/projects/lvq/example.png",
       ],
     },
-    {
-      title: "PaperMind",
-      href: "https://github.com/clementpeleman/PaperMind",
-      dates: "2025 - Present",
-      active: true,
-      description:
-        "A modern web application designed to help users manage, analyze, and interact with academic papers and research data. Features AI-powered analysis, Zotero integration for seamless reference management and quick analyses for time-saving purposes.",
-      tags: [
-        "Next.js",
-        "TypeScript",
-        "Supabase",
-        "Zotero",
-        "AI/ML",
-        "React",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/clementpeleman/PaperMind",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/projects/papermind/thumbnail.png",
-      video: "",
-      images: [
-        "/projects/papermind/thumbnail.png",
-        "/projects/papermind/demo.gif",
-        "/projects/papermind/Zotero.png",
-      ],
-    },
+    // {
+    //   title: "PaperMind",
+    //   href: "https://github.com/clementpeleman/PaperMind",
+    //   dates: "2025 - Present",
+    //   active: true,
+    //   description:
+    //     "A modern web application designed to help users manage, analyze, and interact with academic papers and research data. Features AI-powered analysis, Zotero integration for seamless reference management and quick analyses for time-saving purposes.",
+    //   tags: [
+    //     "Next.js",
+    //     "TypeScript",
+    //     "Supabase",
+    //     "Zotero",
+    //     "AI/ML",
+    //     "React",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "GitHub",
+    //       href: "https://github.com/clementpeleman/PaperMind",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/projects/papermind/thumbnail.png",
+    //   video: "",
+    //   images: [
+    //     "/projects/papermind/thumbnail.png",
+    //     "/projects/papermind/demo.gif",
+    //     "/projects/papermind/Zotero.png",
+    //   ],
+    // },
     {
       title: "H16 Website",
       href: "https://www.h16.be",
-      dates: "2022 - Present",
+      dates: "2022",
       active: true,
       description:
         "Frontend and backend development for H16.be, creating a stunning online experience. Focus on both frontend and backend development, delivering a seamless, responsive, and engaging website supported by AWS EC2 and RDS infrastructure. Logo and typography by chilli.be.",
