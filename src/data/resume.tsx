@@ -226,6 +226,7 @@ export const DATA = {
         "/projects/nimbo/thumbnail.png",
         "/projects/nimbo/hero.png",
         "/projects/nimbo/packages.png",
+        "/projects/nimbo/cloudscan.png",
       ],
     },
     {
