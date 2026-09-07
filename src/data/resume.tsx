@@ -341,10 +341,9 @@ export const DATA = {
       video: "",
       images: [
         "/projects/h16/thumbnail.png",
-        "/projects/h16/main.png",
         "/projects/h16/first.png",
+        "/projects/h16/main.png",
         "/projects/h16/second.png",
-        "/projects/h16/third.png",
       ],
     },
     {
