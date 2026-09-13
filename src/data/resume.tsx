@@ -165,6 +165,42 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Tack - Visual Feedback for Preview Sites",
+      href: "https://tack.peleman.io",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "An open-source feedback tool for agencies reviewing preview sites with clients. Reviewers pin comments directly on the page without an account; each pin arrives in an inbox with the exact element, CSS selector, screenshot, viewport, and browser. Includes shareable review links that proxy any preview with the widget injected, a browser extension for sites you can't edit, an optional AI inbox for labels and duplicate grouping, and a self-hosted Docker setup with SQLite.",
+      tags: [
+        "TanStack Start",
+        "React",
+        "TypeScript",
+        "Drizzle ORM",
+        "SQLite",
+        "Docker",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tack.peleman.io",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/clementpeleman/tack",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/tack/thumbnail.png",
+      video: "",
+      images: [
+        "/projects/tack/thumbnail.png",
+        "/projects/tack/steps.png",
+        "/projects/tack/context.png",
+        "/projects/tack/selfhost.png",
+      ],
+    },
+    {
       title: "Floating Coach - AI Sports Coach",
       href: "https://coach.peleman.io",
       dates: "2026",
