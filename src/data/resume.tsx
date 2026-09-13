@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Engineer with a background in embedded systems and product design.",
   summary:
-    "Engineer with a background in product and hardware design. I work across the stack, combining technical problem-solving with a strong sense for product. This mix keeps me curious about both how things work and how people experience them. Currently working as RAN-Expert at [Citymesh](https://www.citymesh.com/).",
+    "Engineer with a background in product and hardware design. I work across the stack and care as much about how a product feels as about how it works. That mix keeps me curious about both the internals and the people using them. Currently RAN Expert at [Citymesh](https://www.citymesh.com/).",
   avatarUrl: "/me.jpeg",
   // Skills marked here render a small accent dot in the UI to signal what
   // I'm actively building with right now.
@@ -86,7 +86,7 @@ export const DATA = {
       start: "2026",
       end: "Present",
       description:
-        "Responsible for designing, staging, and field-testing private mobile networks, from 5G to 0G, across diverse environments and scales. Involved in network planning, deployment optimization, and performance validation through data-driven field measurements.",
+        "I design, stage, and field-test private mobile networks, from 5G down to 0G, at sites of very different sizes. That covers network planning, tuning deployments, and checking performance against field measurements.",
     },
         {
       company: "Self-employed ",
@@ -98,7 +98,7 @@ export const DATA = {
       start: "2025",
       end: "Present",
       description:
-        "Freelance digital product development and consulting, specializing in building custom websites and applications for local businesses. Services include frontend and backend development, CMS integration, and AI-powered features.",
+        "Freelance product development for local businesses: custom websites and web apps, frontend and backend, CMS setups, and AI features where they make sense.",
     },
     {
       company: "LVQ Wine",
@@ -170,7 +170,7 @@ export const DATA = {
       dates: "2026 - Present",
       active: true,
       description:
-        "An open-source feedback tool for agencies reviewing preview sites with clients. Reviewers pin comments directly on the page without an account; each pin arrives in an inbox with the exact element, CSS selector, screenshot, viewport, and browser. Includes shareable review links that proxy any preview with the widget injected, a browser extension for sites you can't edit, an optional AI inbox for labels and duplicate grouping, and a self-hosted Docker setup with SQLite.",
+        "Open-source feedback tool for agencies that review preview sites with clients. A reviewer clicks an element on the page and leaves a comment, without needing an account. The comment lands in an inbox together with the element, its CSS selector, a screenshot, the viewport and the browser, so nobody has to ask what was meant. Review links proxy any preview with the widget already injected, and a browser extension covers sites you can't edit. Self-hosted with Docker and SQLite, with an optional AI inbox that labels comments and groups duplicates.",
       tags: [
         "TanStack Start",
         "React",
@@ -206,7 +206,7 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "A personal AI sports coach that connects to Garmin wearables and turns training data into recovery-aware, personalized advice. Features a LangGraph agent for natural conversations, daily recovery scoring, automatic activity analysis, and custom workout generation that syncs back to Garmin — available as a web dashboard and Telegram bot.",
+        "A personal AI sports coach that reads training data from a Garmin wearable and gives advice that takes recovery into account. A LangGraph agent handles the conversation, scores recovery each day, analyses new activities as they come in, and builds custom workouts that sync back to Garmin. Runs as a web dashboard and as a Telegram bot.",
       tags: [
         "LangGraph",
         "Next.js",
@@ -241,7 +241,7 @@ export const DATA = {
       dates: "2025 - Present",
       active: true,
       description:
-        "A Belgian cloud platform offering invoicing, CRM, document management, and secure storage in one workspace. Built for small businesses that want their data hosted locally in Belgium with GDPR compliance. Features a marketplace for integrations and multi-language support.",
+        "A Belgian cloud platform with invoicing, CRM, document management and secure file storage in one workspace. Made for small businesses that want their data hosted in Belgium and GDPR compliant. Has a marketplace for integrations and works in multiple languages.",
       tags: [
         "Next.js",
         "React",
@@ -271,7 +271,7 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "A full wine management platform for restaurants. Restaurants can upload their menu and get AI-generated wine pairings, manage their inventory with cost tracking, generate wine cards in multiple templates, and order from suppliers — all from one dashboard. Integrates Google Vision API for menu scanning and a custom kNN model for AI pairings.",
+        "A wine management platform for restaurants. Upload a menu and get AI wine pairings, track inventory and cost, generate wine cards from several templates, and order from suppliers, all from one dashboard. Menu scanning runs on the Google Vision API; the pairings come from a custom kNN model.",
       tags: [
         "React",
         "TypeScript",
@@ -301,7 +301,7 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "A website for a local wine shop based in Oosterzele. Built with Webflow with custom code for features such as the top banner and shopping cart logic. Full CMS integration with filtering.",
+        "Website for a wine shop in Oosterzele. Built in Webflow, with custom code for the top banner and the shopping cart logic, and a CMS with filtering.",
       tags: [
         "Webflow",
         "JavaScript",
@@ -358,7 +358,7 @@ export const DATA = {
       dates: "2022",
       active: true,
       description:
-        "Frontend and backend development for H16.be, creating a stunning online experience. Focus on both frontend and backend development, delivering a seamless, responsive, and engaging website supported by AWS EC2 and RDS infrastructure. Logo and typography by chilli.be.",
+        "Frontend and backend for H16.be: a responsive site with a CMS, hosted on AWS EC2 with an RDS database. Logo and typography by chilli.be.",
       tags: [
         "React",
         "Node.js",
@@ -388,7 +388,7 @@ export const DATA = {
       dates: "2024",
       active: false,
       description:
-        "A compact and versatile ESP32 development board with integrated Wi-Fi and Bluetooth capabilities. Ideal for IoT projects where space and connectivity are key. Features USB-C for power and UART pinout for programming.",
+        "A compact ESP32 development board with Wi-Fi and Bluetooth, meant for IoT projects where board space is tight. USB-C for power and a UART pinout for programming.",
       tags: [
         "KiCad",
         "PCB Design",
@@ -411,7 +411,7 @@ export const DATA = {
       dates: "2023",
       active: false,
       description:
-        "A user-centered bike light design with special attention to the user journey. Features magnetic attachment for seamless on/off functionality, ensuring secure placement during rides while making it easy to remove when leaving the bike or recharging.",
+        "A bike light designed around the full user journey. It attaches magnetically, so it stays put while riding but comes off in one motion when you leave the bike or need to charge it.",
       tags: [
         "Product Design",
         "UX Design",
@@ -435,7 +435,7 @@ export const DATA = {
       dates: "2023",
       active: false,
       description:
-        "Master's thesis project exploring Multi Jet Fusion (MJF) production within a corporate setting. Identified and analyzed existing bottlenecks impeding efficiency and devised solutions to enhance the MJF production process. Includes a wearable PM exposure monitoring device.",
+        "Master's thesis on Multi Jet Fusion (MJF) production in a company setting. I mapped the bottlenecks in the production process and designed fixes for them, including a wearable PM exposure monitor.",
       tags: [
         "Product Design",
         "MJF Technology",
@@ -499,7 +499,7 @@ export const DATA = {
       dates: "2025",
       location: "Ghent, Belgium",
       description:
-        "Custom-built FPV racing drone with 3D printed GoPro mount. FPV (First-Person-View) flying with realtime video feed to goggles. Built from scratch with custom designed and 3D-printed components.",
+        "FPV (first-person view) racing drone built from scratch, with a live video feed to goggles. The GoPro mount and several other parts are my own designs, 3D printed.",
       image: "/sides/img_5237.jpeg",
       links: [
         {
@@ -514,7 +514,7 @@ export const DATA = {
       dates: "2024",
       location: "Milton Keynes, UK",
       description:
-        "F1 and car enthusiast with a passion for the engineering and tags used. Visited the Red Bull F1 factory in Milton Keynes.",
+        "F1 and car fan, mostly for the engineering. Visited the Red Bull F1 factory in Milton Keynes.",
       image: "/sides/img_1696.jpeg",
       links: [],
     },
@@ -553,7 +553,7 @@ export const DATA = {
       dates: "2021",
       location: "Ghent, Belgium",
       description:
-        "Set up a Helium hotspot on my student dorm balcony to contribute to the decentralized Helium LoRa network. Learned extensively about LoRa technology, long-range IoT connectivity, and decentralized wireless infrastructure.",
+        "Ran a Helium hotspot on my student dorm balcony as part of the decentralized LoRa network. A good excuse to learn how LoRa and long-range IoT connectivity work.",
       image: "/sides/helium.png",
       links: [
         {
@@ -568,7 +568,7 @@ export const DATA = {
       dates: "2015",
       location: "Ghent, Belgium",
       description:
-        "Passionate about 3D printing using Ender 3 Pro and Bambulab A1 mini. Bought first Ender when I was 14 years old - still works today. Amazed by how easy and far the 3D printing industry has gotten in such little time.",
+        "I print on an Ender 3 Pro and a Bambulab A1 mini. Bought the Ender when I was 14 and it still works. It's striking how much easier printing has become since then.",
       image: "/sides/2006109452.avif",
       links: [],
     },
