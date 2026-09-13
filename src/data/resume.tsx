@@ -291,6 +291,7 @@ export const DATA = {
       video: "",
       images: [
         "/projects/tipple-v2/thumbnail.png",
+        "/projects/tipple-v2/landing-full.png",
         "/projects/tipple-v2/dashboard.png",
         "/projects/tipple-v2/winecards.png",
       ],

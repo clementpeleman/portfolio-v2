@@ -17,7 +17,34 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Markdown from "react-markdown";
+import { useState } from "react";
 import { Button } from "./ui/button";
+
+// Images taller than the 16:9 frame (e.g. full-page captures) scroll inside
+// the frame instead of being cropped to a middle band.
+function ModalImage({ src, alt }: { src: string; alt: string }) {
+  const [tall, setTall] = useState(false);
+  if (tall) {
+    return (
+      <div className="absolute inset-0 overflow-y-auto">
+        <Image src={src} alt={alt} width={1920} height={1080} sizes="(min-width: 1024px) 1024px, 100vw" className="w-full h-auto" />
+      </div>
+    );
+  }
+  return (
+    <Image
+      src={src}
+      alt={alt}
+      fill
+      sizes="(min-width: 1024px) 1024px, 100vw"
+      className="object-cover"
+      onLoad={(e) => {
+        const img = e.currentTarget;
+        if (img.naturalHeight / img.naturalWidth > 0.7) setTall(true);
+      }}
+    />
+  );
+}
 
 interface ProjectModalProps {
   open: boolean;
@@ -82,12 +109,7 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
                       loop
                     />
                   ) : (
-                    <Image
-                      src={mediaItems[0].src}
-                      alt={project.title}
-                      fill
-                      className="object-cover"
-                    />
+                    <ModalImage src={mediaItems[0].src} alt={project.title} />
                   )}
                 </div>
               ) : (
@@ -107,11 +129,9 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
                               loop
                             />
                           ) : (
-                            <Image
+                            <ModalImage
                               src={media.src}
                               alt={`${project.title} - Image ${index + 1}`}
-                              fill
-                              className="object-cover"
                             />
                           )}
                         </div>
