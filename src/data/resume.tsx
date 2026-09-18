@@ -165,7 +165,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Tack - Visual Feedback for Preview Sites",
+      title: "Tack - Visual Feedback Tool",
       href: "https://tack.peleman.io",
       dates: "2026 - Present",
       active: true,
@@ -198,6 +198,33 @@ export const DATA = {
         "/projects/tack/steps.png",
         "/projects/tack/context.png",
         "/projects/tack/selfhost.png",
+      ],
+    },
+        {
+      title: "LVQ - Wine Shop Website",
+      href: "https://lvq.wine",
+      dates: "2025",
+      active: true,
+      description:
+        "Website for a wine shop in Oosterzele. Built in Webflow, with custom code for the top banner and the shopping cart logic, and a CMS with filtering.",
+      tags: [
+        "Webflow",
+        "JavaScript",
+        "Custom Code",
+        "CMS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://lvq.wine",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/lvq/thumbnail.png",
+      video: "",
+      images: [
+        "/projects/lvq/thumbnail.png",
+        "/projects/lvq/example.png",
       ],
     },
     // {
@@ -266,7 +293,7 @@ export const DATA = {
       ],
     },
     {
-      title: "Tipple - Restaurant Wine Management",
+      title: "Tipple - Wine Management",
       href: "https://tipple.wine/",
       dates: "2025",
       active: true,
@@ -294,33 +321,6 @@ export const DATA = {
         "/projects/tipple-v2/landing-full.png",
         "/projects/tipple-v2/dashboard.png",
         "/projects/tipple-v2/winecards.png",
-      ],
-    },
-    {
-      title: "LVQ - Wine Shop Website",
-      href: "https://lvq.wine",
-      dates: "2025",
-      active: true,
-      description:
-        "Website for a wine shop in Oosterzele. Built in Webflow, with custom code for the top banner and the shopping cart logic, and a CMS with filtering.",
-      tags: [
-        "Webflow",
-        "JavaScript",
-        "Custom Code",
-        "CMS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://lvq.wine",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/projects/lvq/thumbnail.png",
-      video: "",
-      images: [
-        "/projects/lvq/thumbnail.png",
-        "/projects/lvq/example.png",
       ],
     },
     // {
