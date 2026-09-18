@@ -200,41 +200,41 @@ export const DATA = {
         "/projects/tack/selfhost.png",
       ],
     },
-    {
-      title: "Floating Coach - AI Sports Coach",
-      href: "https://coach.peleman.io",
-      dates: "2026",
-      active: true,
-      description:
-        "A personal AI sports coach that reads training data from a Garmin wearable and gives advice that takes recovery into account. A LangGraph agent handles the conversation, scores recovery each day, analyses new activities as they come in, and builds custom workouts that sync back to Garmin. Runs as a web dashboard and as a Telegram bot.",
-      tags: [
-        "LangGraph",
-        "Next.js",
-        "Python",
-        "Garmin API",
-        "Telegram API",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://coach.peleman.io",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "GitHub",
-          href: "https://github.com/clementpeleman/coach-v2",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/projects/floating-coach/mainpage.png",
-      video: "",
-      images: [
-        "/projects/floating-coach/mainpage.png",
-        "/projects/floating-coach/ai_chat.png",
-        "/projects/floating-coach/activitygenerator.png",
-        "/projects/floating-coach/recoveryscore.png",
-      ],
-    },
+    // {
+    //   title: "Floating Coach - AI Sports Coach",
+    //   href: "https://coach.peleman.io",
+    //   dates: "2026",
+    //   active: true,
+    //   description:
+    //     "A personal AI sports coach that reads training data from a Garmin wearable and gives advice that takes recovery into account. A LangGraph agent handles the conversation, scores recovery each day, analyses new activities as they come in, and builds custom workouts that sync back to Garmin. Runs as a web dashboard and as a Telegram bot.",
+    //   tags: [
+    //     "LangGraph",
+    //     "Next.js",
+    //     "Python",
+    //     "Garmin API",
+    //     "Telegram API",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://coach.peleman.io",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "GitHub",
+    //       href: "https://github.com/clementpeleman/coach-v2",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/projects/floating-coach/mainpage.png",
+    //   video: "",
+    //   images: [
+    //     "/projects/floating-coach/mainpage.png",
+    //     "/projects/floating-coach/ai_chat.png",
+    //     "/projects/floating-coach/activitygenerator.png",
+    //     "/projects/floating-coach/recoveryscore.png",
+    //   ],
+    // },
     {
       title: "Nimbo - Cloud Platform",
       href: "https://getnimbo.peleman.io",
