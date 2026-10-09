@@ -356,15 +356,15 @@ export const DATA = {
     {
       title: "H16 Website",
       href: "https://www.h16.be",
-      dates: "2022",
+      dates: "2022 - 2026",
       active: true,
       description:
-        "Frontend and backend for H16.be: a responsive site with a CMS, hosted on AWS EC2 with an RDS database. Logo and typography by chilli.be.",
+        "Site for H16, a small construction coordination and property development firm near Ghent. I built the first version in 2022 and redid the design and code in 2026. It runs on Next.js with Strapi as the CMS, so they can add projects themselves, and is self-hosted on Hetzner. Logo and typography by chilli.be.",
       tags: [
-        "React",
-        "Node.js",
-        "AWS EC2",
-        "AWS RDS",
+        "Next.js",
+        "Tailwind CSS",
+        "Strapi",
+        "Hetzner",
         "CMS",
       ],
       links: [
@@ -378,9 +378,10 @@ export const DATA = {
       video: "",
       images: [
         "/projects/h16/thumbnail.png",
-        "/projects/h16/first.png",
-        "/projects/h16/main.png",
-        "/projects/h16/second.png",
+        "/projects/h16/landing-full.jpg",
+        "/projects/h16/realisaties.png",
+        "/projects/h16/werkwijze.png",
+        "/projects/h16/team.png",
       ],
     },
     {
